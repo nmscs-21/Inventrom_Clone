@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    color: grey;
+    height: 57px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img{
+    margin-left: 10vw;
+    height: 44px;
+    width: 138px;
+}
+
+.nav span{
+    margin: 18vw;
+}
+
+/*Styling the */
+.nav a{
+    margin: 5px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.main-container{
+    background-image: url("resources/background-layer.png");
+    color: white;
+}
