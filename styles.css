@@ -205,6 +205,7 @@ a:hover{
 
 .copy-right{
     flex : 1;
+    text-align: center;
 }
 
 .icons{
