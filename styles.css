@@ -143,9 +143,45 @@
     align-items: center;
 }
 
-.award-line-1, .award-line-2{
+.award-line-1, .award-line-2, .contact-us span, .location .address{
     font-size: 11px;
     color: grey;
+}
+
+.contacts-container{
+    display: flex;
+}
+
+.form{
+    flex: 1;
+    margin-left: 20vw;
+    margin-bottom: 2vh;
+}
+
+.right{
+    flex: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .contacts-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form{
+        margin: auto;
+    }
+
+    .right{
+        text-align: center;
+    }
+}
+
+.location-title, .contact-sub-title{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 4vh 0vh;
+
 }
 
 a{
