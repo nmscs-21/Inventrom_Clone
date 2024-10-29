@@ -193,3 +193,33 @@ a:hover{
     color: black;
 }
 
+.footer{
+    box-sizing: border-box;
+    height: 5vh;
+    color: white;
+    display: flex;
+    background-color: rgb(14, 94, 14);
+    position: relative;
+    bottom: 0px;
+}
+
+.copy-right{
+    flex : 1;
+}
+
+.icons{
+    flex: 5;
+    text-align: center;
+}
+
+.go-up{
+    flex: 1;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+.social-media-links a{
+    margin: 2vw;
+}
