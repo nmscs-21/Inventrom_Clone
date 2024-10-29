@@ -42,7 +42,7 @@
     flex-direction: column;
 }
 
-.about-title{
+.about-title, .awards-title, .contact-title{
     text-align: center;
     font-family: 'Times New Roman', Times, serif, Courier, monospace;
     font-weight: bold;
@@ -112,9 +112,41 @@
     }
 }
 
-/* .about .card-info{
-    margin-left: 30px;
-} */
+#bg-cement{
+    background-color: rgb(240, 240, 240);
+}
+
+.award-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px;
+}
+
+.award-cards img{
+    height: 200px;
+    width: 280px;
+}
+
+.award-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.award-description{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.award-line-1, .award-line-2{
+    font-size: 11px;
+    color: grey;
+}
 
 a{
     color: inherit;
